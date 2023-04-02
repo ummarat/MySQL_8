@@ -34,6 +34,7 @@ EXPLAIN SELECT * FROM Customers
 WHERE CustumerNo = 3;
 
 -- додаємо індекси для аналізу
+-- ще один коментар
 CREATE INDEX city
 ON Customers (City);
 
